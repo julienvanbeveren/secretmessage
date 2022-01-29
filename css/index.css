@@ -1,0 +1,64 @@
+body {
+    font-family: 'Gilroy';
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: min(100vw, 1500px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 40px;
+    width: min(90%, 400px)
+}
+
+.form-group-wrapper {
+    display: flex;  
+    flex-direction: column;
+}
+
+label {
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+input {
+    background-color: rgb(231, 231, 231);
+    border: none;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+button {
+    background-color: rgb(247, 137, 137);
+    border: none;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+}

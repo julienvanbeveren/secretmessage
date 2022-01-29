@@ -5,8 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script defer src="index.js"></script>
+
 </head>
 <body>
-    
+    <section>
+        <div class="container">
+            <form id="CodeMessage" action="">
+                <div class="form-group-wrapper">
+                    <label for="Message">Type a message</label>
+                    <input id="Message" type="text">
+                </div>
+                <button>Copy Invisible Message</button>
+            </form>
+            <form id="DecodeMessage" action="">
+                <div class="form-group-wrapper">
+                    <label for="InvisMessage">Paste invisible message</label>
+                    <input id="InvisMessage" type="text">
+                </div>
+                <button>Decode Message</button>
+            </form>
+            <p id="final-text-output"></p>
+        </div>
+    </section>
 </body>
 </html>
